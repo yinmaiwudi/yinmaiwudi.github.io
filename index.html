@@ -444,7 +444,8 @@
                     particle.style.transform = `translate3d(${x * depth}px, ${y * depth}px, 0)`;
                 });
             });
-            // 粒子动画（漂浮+旋转）
+        }
+        // 粒子动画（漂浮+旋转）
         function animateParticle(particle) {
             const duration = Math.random() * 20 + 10;
             const startX = parseFloat(particle.style.left);
